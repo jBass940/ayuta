@@ -1,0 +1,82 @@
+{
+  "name": "ayuta",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "5.5.1",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.5.1",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@mui/x-date-pickers": "^5.0.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "dayjs": "^1.11.6",
+    "firebase": "^9.14.0",
+    "gsap": "^3.11.4",
+    "lightgallery": "^2.7.1",
+    "material-icons": "^1.12.2",
+    "mobx": "^6.7.0",
+    "mobx-react-lite": "^3.4.0",
+    "moment": "^2.29.4",
+    "mui-image": "^1.0.7",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-progressive-image": "^0.6.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "swiper": "^9.2.0",
+    "typescript": "^4.9.3",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off",
+      "no-undef": "warn",
+      "no-unused-vars": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.5.1",
+    "@types/mui-image": "^1.0.5",
+    "sass": "^1.60.0"
+  }
+}
