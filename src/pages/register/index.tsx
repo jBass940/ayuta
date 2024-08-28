@@ -208,8 +208,9 @@ const Register = () => {
           borderRadius: 1,
         }}
       >
-        <InputLabel htmlFor="outlined-adornment-password">Пароль</InputLabel>
-        <OutlinedInput
+        <InputLabel htmlFor="password">Пароль</InputLabel>
+        <FilledInput
+          id="password"
           name="password"
           fullWidth
           type={isShowPassword ? "text" : "password"}
@@ -228,7 +229,6 @@ const Register = () => {
               </IconButton>
             </InputAdornment>
           }
-          label="Подтверждение пароля"
         />
       </FormControl>
 
@@ -240,9 +240,11 @@ const Register = () => {
           borderRadius: 1,
         }}
       >
-        <InputLabel htmlFor="outlined-adornment-password">Подтверждение пароля</InputLabel>
-        <OutlinedInput
+        <InputLabel htmlFor="passwordConfirm">Подтверждение пароля</InputLabel>
+        <FilledInput
+          id="passwordConfirm"
           name="passwordConfirm"
+          fullWidth
           type={isShowPasswordConfirm ? "text" : "password"}
           value={fields.passwordConfirm}
           onChange={(e) => registerStore.onChange(e)}
@@ -259,7 +261,6 @@ const Register = () => {
               </IconButton>
             </InputAdornment>
           }
-          label="Подтверждение пароля"
         />
       </FormControl>
 
