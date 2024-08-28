@@ -90,7 +90,7 @@ const Main = () => {
       <Box
         sx={{
           display: "flex",
-          gap: 1,
+          gap: 2,
           "& > *": {
             m: 1,
             color: "white",
@@ -108,17 +108,17 @@ const Main = () => {
             </Button>
           )}
 
-          <Button variant="contained" size="large" onClick={() => navigate("/faq")} sx={{ borderRadius: 2 }}>
-            О приложении
-          </Button>
+          {/* <Button variant="contained" size="large" onClick={() => navigate("/faq")} sx={{ borderRadius: 2 }}>
+              О приложении
+            </Button>
 
-          <Button variant="contained" size="large" onClick={() => navigate("/faq#privacyPolicy")} sx={{ borderRadius: 2 }}>
-            Политика конфиденциальности
-          </Button>
+            <Button variant="contained" size="large" onClick={() => navigate("/faq#privacyPolicy")} sx={{ borderRadius: 2 }}>
+              Политика конфиденциальности
+            </Button>
 
-          <Button variant="contained" size="large" onClick={() => navigate("/faq#termsOfUse")} sx={{ borderRadius: 2 }}>
-            Пользовательское соглашение
-          </Button>
+            <Button variant="contained" size="large" onClick={() => navigate("/faq#termsOfUse")} sx={{ borderRadius: 2 }}>
+              Пользовательское соглашение
+            </Button> */}
 
           <Button variant="contained" size="large" onClick={() => navigate("/feedback")} sx={{ borderRadius: 2 }}>
             Написать разработчикам

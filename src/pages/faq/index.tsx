@@ -20,7 +20,7 @@ const Faq = () => {
   }, []);
 
   return (
-    <PageLayout header={<BaseAppBar title="FAQ" />}>
+    <PageLayout header={<BaseAppBar title="О сервисе" />}>
       <Box
         sx={{
           p: 4,
