@@ -1,5 +1,0 @@
-export enum Modal {
-  "AVATAR_UPLOAD" = "AVATAR_UPLOAD",
-  "AVATAR_UPLOAD_WALL" = "AVATAR_UPLOAD_WALL",
-  "SUCCESS" = "SUCCESS",
-}
