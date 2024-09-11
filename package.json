@@ -2,7 +2,7 @@
   "name": "ayuta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jbass940.github.io/ayuta/",
+  "homepage": "https://jbass940.github.io/ayuta",
   "dependencies": {
     "@capacitor/android": "5.5.1",
     "@capacitor/app": "5.0.6",
